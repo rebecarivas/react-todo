@@ -159,3 +159,21 @@ section.task-list {
     } 
   }
 }
+
+@media screen and (max-width: 500px){
+  section.task-list {
+    padding: 20px;
+    max-width: 80%;
+  header {
+    flex-wrap: wrap;
+    h2{
+      padding-bottom: 5px;
+      font-size: 2rem;
+    }
+  }
+  li{
+    width: 80%;
+  }
+}
+  
+}
